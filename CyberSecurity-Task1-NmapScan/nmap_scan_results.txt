@@ -1,0 +1,62 @@
+############################################################
+#  NMAP SCAN RESULTS — Task 1 (Oasis Infobyte SIP)
+#  Analyst : Ojewumi Asaph Felix
+#  Target  : 127.0.0.1 (localhost — machine we own)
+#  Date    : 2026-10-25 20:06 UTC
+#  Nmap    : Nmap version 7.94SVN ( https://nmap.org )
+############################################################
+
+===================================================================
+ SCAN 1 — Basic scan :  nmap 127.0.0.1
+===================================================================
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-10-25 20:06 UTC
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.0000020s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE
+80/tcp   open  http
+8080/tcp open  http-proxy
+
+Nmap done: 1 IP address (1 host up) scanned in 0.08 seconds
+
+===================================================================
+ SCAN 2 — Service/version scan :  nmap -sV 127.0.0.1
+===================================================================
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-10-25 20:06 UTC
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.0000020s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+80/tcp   open  http    SimpleHTTPServer 0.6 (Python 3.13.17)
+8080/tcp open  http    SimpleHTTPServer 0.6 (Python 3.13.17)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 6.39 seconds
+
+===================================================================
+ SCAN 3 — OS detection scan :  nmap -O 127.0.0.1
+===================================================================
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-10-25 20:06 UTC
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000040s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE
+80/tcp   open  http
+8080/tcp open  http-proxy
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=10/25%OT=80%CT=1%CU=39229%PV=N%DS=0%DC=L%G=Y%TM=6AD
+OS:E6144%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=108%TI=Z%CI=Z%II=I%TS=2
+OS:1)OPS(O1=MFFD7ST11NWA%O2=MFFD7ST11NWA%O3=MFFD7NNT11NWA%O4=MFFD7ST11NWA%O
+OS:5=MFFD7ST11NWA%O6=MFFD7ST11)WIN(W1=FFCB%W2=FFCB%W3=FFCB%W4=FFCB%W5=FFCB%
+OS:W6=FFCB)ECN(R=Y%DF=Y%T=40%W=FFD7%O=MFFD7NNSNWA%CC=Y%Q=)T1(R=Y%DF=Y%T=40%
+OS:S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%
+OS:RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W
+OS:=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)
+OS:U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%D
+OS:FI=N%T=40%CD=S)
+
+Network Distance: 0 hops
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 11.36 seconds
