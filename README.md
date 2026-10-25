@@ -12,5 +12,6 @@ format `OIBSIP/[TrackName]-[Task]-[ProjectName]/`.
 | Task | Folder | Type |
 |------|--------|------|
 | Task 4 — Common Network Security Threats | [`CyberSecurity-Task4-NetworkThreatsReport/`](./CyberSecurity-Task4-NetworkThreatsReport/) | Research report |
+| Task 5 — Social Engineering Attacks | [`CyberSecurity-Task5-SocialEngineeringReport/`](./CyberSecurity-Task5-SocialEngineeringReport/) | Research report |
 
 *(More tasks will be added — the Security Analyst track requires at least 4 of 10 tasks.)*
