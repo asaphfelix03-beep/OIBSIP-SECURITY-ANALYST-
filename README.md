@@ -13,5 +13,6 @@ format `OIBSIP/[TrackName]-[Task]-[ProjectName]/`.
 |------|--------|------|
 | Task 4 — Common Network Security Threats | [`CyberSecurity-Task4-NetworkThreatsReport/`](./CyberSecurity-Task4-NetworkThreatsReport/) | Research report |
 | Task 5 — Social Engineering Attacks | [`CyberSecurity-Task5-SocialEngineeringReport/`](./CyberSecurity-Task5-SocialEngineeringReport/) | Research report |
+| Task 6 — Importance of Patch Management | [`CyberSecurity-Task6-PatchManagementReport/`](./CyberSecurity-Task6-PatchManagementReport/) | Research report |
 
 *(More tasks will be added — the Security Analyst track requires at least 4 of 10 tasks.)*
